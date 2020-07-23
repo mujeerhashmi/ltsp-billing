@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cimec_infotech *.css
+recursive-include cimec_infotech *.csv
+recursive-include cimec_infotech *.html
+recursive-include cimec_infotech *.ico
+recursive-include cimec_infotech *.js
+recursive-include cimec_infotech *.json
+recursive-include cimec_infotech *.md
+recursive-include cimec_infotech *.png
+recursive-include cimec_infotech *.py
+recursive-include cimec_infotech *.svg
+recursive-include cimec_infotech *.txt
+recursive-exclude cimec_infotech *.pyc
