@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include cimec_infotech *.css
-recursive-include cimec_infotech *.csv
-recursive-include cimec_infotech *.html
-recursive-include cimec_infotech *.ico
-recursive-include cimec_infotech *.js
-recursive-include cimec_infotech *.json
-recursive-include cimec_infotech *.md
-recursive-include cimec_infotech *.png
-recursive-include cimec_infotech *.py
-recursive-include cimec_infotech *.svg
-recursive-include cimec_infotech *.txt
-recursive-exclude cimec_infotech *.pyc
+recursive-include ltsp_billing *.css
+recursive-include ltsp_billing *.csv
+recursive-include ltsp_billing *.html
+recursive-include ltsp_billing *.ico
+recursive-include ltsp_billing *.js
+recursive-include ltsp_billing *.json
+recursive-include ltsp_billing *.md
+recursive-include ltsp_billing *.png
+recursive-include ltsp_billing *.py
+recursive-include ltsp_billing *.svg
+recursive-include ltsp_billing *.txt
+recursive-exclude ltsp_billing *.pyc
