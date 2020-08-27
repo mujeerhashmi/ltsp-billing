@@ -4,8 +4,8 @@ from setuptools import setup, find_packages
 with open('requirements.txt') as f:
 	install_requires = f.read().strip().split('\n')
 
-# get version from __version__ variable in cimec_infotech/__init__.py
-from cimec_infotech import __version__ as version
+# get version from __version__ variable in ltsp_billing/__init__.py
+from ltsp_billing import __version__ as version
 
 setup(
 	name='ltsp_billing',
