@@ -8,9 +8,9 @@ with open('requirements.txt') as f:
 from cimec_infotech import __version__ as version
 
 setup(
-	name='cimec_infotech',
+	name='ltsp_billing',
 	version=version,
-	description='Cimec Infotech Customisations',
+	description='LTSP Billing Customisations',
 	author='4C Solutions',
 	author_email='info@4csolutions.in',
 	packages=find_packages(),

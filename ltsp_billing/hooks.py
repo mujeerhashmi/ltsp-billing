@@ -2,10 +2,10 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "cimec_infotech"
-app_title = "Cimec Infotech"
+app_name = "ltsp_billing"
+app_title = "LTSP Billing"
 app_publisher = "4C Solutions"
-app_description = "Cimec Infotech Customisations"
+app_description = "LTSP Billing Customisations"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "info@4csolutions.in"
@@ -19,8 +19,8 @@ fixtures = [
 				"name",
 				"in",
 				[
-					"Cimec GST Invoice",
-                                        "Cimec Installation Note"
+					"LTSP GST Invoice",
+                                        "LTSP Installation Note"
 				]
 			]
 		]
@@ -30,12 +30,12 @@ fixtures = [
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/cimec_infotech/css/cimec_infotech.css"
-# app_include_js = "/assets/cimec_infotech/js/cimec_infotech.js"
+# app_include_css = "/assets/ltsp_billing/css/ltsp_billing.css"
+# app_include_js = "/assets/ltsp_billing/js/ltsp_billing.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/cimec_infotech/css/cimec_infotech.css"
-# web_include_js = "/assets/cimec_infotech/js/cimec_infotech.js"
+# web_include_css = "/assets/ltsp_billing/css/ltsp_billing.css"
+# web_include_js = "/assets/ltsp_billing/js/ltsp_billing.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -58,7 +58,7 @@ fixtures = [
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "cimec_infotech.utils.get_home_page"
+# get_website_user_home_page = "ltsp_billing.utils.get_home_page"
 
 # Generators
 # ----------
@@ -69,14 +69,14 @@ fixtures = [
 # Installation
 # ------------
 
-# before_install = "cimec_infotech.install.before_install"
-# after_install = "cimec_infotech.install.after_install"
+# before_install = "ltsp_billing.install.before_install"
+# after_install = "ltsp_billing.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "cimec_infotech.notifications.get_notification_config"
+# notification_config = "ltsp_billing.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -107,38 +107,38 @@ fixtures = [
 
 # scheduler_events = {
 # 	"all": [
-# 		"cimec_infotech.tasks.all"
+# 		"ltsp_billing.tasks.all"
 # 	],
 # 	"daily": [
-# 		"cimec_infotech.tasks.daily"
+# 		"ltsp_billing.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"cimec_infotech.tasks.hourly"
+# 		"ltsp_billing.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"cimec_infotech.tasks.weekly"
+# 		"ltsp_billing.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"cimec_infotech.tasks.monthly"
+# 		"ltsp_billing.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "cimec_infotech.install.before_tests"
+# before_tests = "ltsp_billing.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "cimec_infotech.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "ltsp_billing.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "cimec_infotech.task.get_dashboard_data"
+# 	"Task": "ltsp_billing.task.get_dashboard_data"
 # }
 
