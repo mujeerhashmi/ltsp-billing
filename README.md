@@ -1,7 +1,7 @@
-## Cimec Infotech
+## LTSP Billing
 
-Cimec Infotech Customisations
+LTSP Billing Customisations
 
 #### License
 
-MIT# cimec-infotech
+MIT# ltsp-billing
