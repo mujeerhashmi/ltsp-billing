@@ -11,6 +11,21 @@ app_color = "grey"
 app_email = "info@4csolutions.in"
 app_license = "MIT"
 
+fixtures = [
+    {
+		"doctype": "Print Format",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Cimec GST Invoice",
+                                        "Cimec Installation Note"
+				]
+			]
+		]
+	}
+]
 # Includes in <head>
 # ------------------
 
