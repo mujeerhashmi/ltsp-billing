@@ -5,10 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Cimec Infotech",
+			"module_name": "LTSP Billing",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Cimec Infotech")
+			"label": _("LTSP Billing")
 		}
 	]
